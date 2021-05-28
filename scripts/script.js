@@ -36,7 +36,7 @@ var chagePage = function (obj) {
   switch (obj.id) {
     case "navItemMain":
         pages[currentPageType].style.display = "none";
-        pages[pagesTypes.ABOUTME].style.display = "flex";
+        pages[pagesTypes.MAIN].style.display = "flex";
         currentPageType = pagesTypes.MAIN;
       break;
     case "navItemAbout":

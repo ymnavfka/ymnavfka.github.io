@@ -27,14 +27,6 @@ var onLoad = function () {
   currentPageType = pagesTypes.MAIN;
 };
 
-var fadeIn = function (page) {
-    
-}
-
-var fadeOut = function (page) {
-
-}
-
 var chagePage = function (obj) {
   // Changing text decoration of menu items.
   currentNavItem.style.textDecoration = "none";
